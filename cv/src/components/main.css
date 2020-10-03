@@ -103,8 +103,11 @@ background-image: linear-gradient(rgb(9, 67, 85),transparent );
     padding:-2rem;
 }
 .fa-do{
-   
     display:flex;
     justify-content:space-around;
     font-size:2rem;
+}
+
+.fa-do > .fa {
+     margin:0;
 }

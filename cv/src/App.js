@@ -40,7 +40,7 @@ class App extends React.Component {
         <Edu />
         <Skills />
         <Vol />
-        <div className='reference'>if you need referrences, please do ask</div>
+        <div className='reference'>if you need references, please do ask</div>
         <VideoBg >
           <VideoBg.Source src={'https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761'} type="" />
         </VideoBg>

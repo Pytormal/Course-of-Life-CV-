@@ -8,8 +8,8 @@ const Skills = () => {
                 <p>
                     Designed many apps for homework and web pages.
                      <li>
-                        created this CV and other personal projects
-                     </li>
+                        created this basic CV and other personal projects as well</li>
+                    <li>learned HTML, CSS, LESS, JSX, React, more skills to learn</li>
                 </p>
                 <p>
                     Highly Profecient and skilled in Microsoft Excel
@@ -23,7 +23,7 @@ const Skills = () => {
                 <p>
                     lots of Eperience cleaning
                       <li>
-                        woking at Deseret Industries cleaning Bathrooms, and sales floor (if needed) and water fountains
+                        woking at Deseret Industries cleaning bathrooms, and sales floor (if needed) and water fountains
                       </li>
                     <li>Cleaned Apartments and became a Team Lead for a group multiple times
                     </li>
@@ -31,7 +31,7 @@ const Skills = () => {
                 <p>
                     Customer Service Experience of at least 6 years
                       <li>
-                        much preferr working with people than in a warehouse
+                        much prefer working with guests or customers in person rather than in a warehouse or on phone calls
                       </li>
                 </p>
                 <p>

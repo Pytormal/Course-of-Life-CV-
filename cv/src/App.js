@@ -32,7 +32,7 @@ class App extends React.Component {
               Olympia, WA 98513
           </div>
             {/* <a>no number available</a> */}
-              <a href='mailto:mallory.alexandrew@gmail.com'>mallory.alexandrew@gmail.com</a>
+              <a className='email' href='mailto:mallory.alexandrew@gmail.com'>mallory.alexandrew@gmail.com</a>
           </nav>
         
         </div>

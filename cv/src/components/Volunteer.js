@@ -6,7 +6,7 @@ const Volunteer = () => {
             <h2 className='h2Title'>Volunteer Work</h2>
             <h3 className='VolTitle'>
                 <p>
-                    Church of Jesus Christ of Latter Day Saints as a prospecting missionary from October 2012 to October 2014
+                    Church of Jesus Christ of Latter Day Saints as a missionary from October 2012 to October 2014
                 </p>
                 <p>
                  Chambers Prairie Elementary School as a Special ed and 1st grade Teachers Assistant from October 2010 to June 2011

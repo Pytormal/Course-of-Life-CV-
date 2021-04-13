@@ -44,18 +44,17 @@ class App extends React.Component {
           <Skills />
           <Vol />
           <div className="reference">if you need references, please do ask</div>
-        </section>
-        <footer>
-          <nav className="bottom-nav">
-            <a
-              className="port"
-              href="https://portfolio4444.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here is my portfolio of projects (needs updating)
-            </a>
-            <section class="fa-do bottom-nav">
+       
+            <nav className="bottom-nav">
+              <a
+                className="port"
+                href="https://portfolio4444.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here is my portfolio of projects (needs updating)
+              </a>
+              <section class="fa-do bottom-nav">
                 <a
                   class="fa fa-linkedin"
                   href="https://www.linkedin.com/in/mallory-alexandrew/"
@@ -91,17 +90,18 @@ class App extends React.Component {
                 >
                   Instagram
                 </a>
-                          </section>
-          </nav>
-          <VideoBg>
-            <VideoBg.Source
-              src={
-                "https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761"
-              }
-              type=""
-            />
-          </VideoBg>
-        </footer>
+              </section>
+            </nav>
+            <VideoBg>
+              <VideoBg.Source
+                src={
+                  "https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761"
+                }
+                type=""
+              />
+            </VideoBg>
+        
+        </section>
       </>
     );
   }

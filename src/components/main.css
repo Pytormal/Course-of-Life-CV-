@@ -30,7 +30,7 @@ html {
   background-size: 220vh auto;
   background-attachment: fixed;
   background-position: center;
-  width:100%;
+  width: 100%;
   height: auto;
 }
 
@@ -58,6 +58,7 @@ a {
   margin: 0 0 0 auto;
   margin-left: auto;
 }
+
 .address {
   width: auto;
 }
@@ -119,7 +120,32 @@ h3 > p > li {
 .fa-do {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   font-size: 2rem;
+  padding: 0.2rem;
+}
+.fa {
+  width: 12rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .fa-do {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .fa-do {
+    text-align: center;
+    /* flex-direction: column; */
+  }
+}
+
+@media (min-width: 100px) {
+  .fa-p {
+    display: none;
+  }
 }
 
 .fa-do > .fa {

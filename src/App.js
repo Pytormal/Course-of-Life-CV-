@@ -44,63 +44,62 @@ class App extends React.Component {
           <Skills />
           <Vol />
           <div className="reference">if you need references, please do ask</div>
-       
-            <nav className="bottom-nav">
+
+          <nav className="bottom-nav">
+            <a
+              className="port"
+              href="https://portfolio4444.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here is my portfolio of projects (needs updating)
+            </a>
+            <section class="fa-do">
               <a
-                className="port"
-                href="https://portfolio4444.netlify.app/"
+                class="fa fa-linkedin"
+                href="https://www.linkedin.com/in/mallory-alexandrew/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                here is my portfolio of projects (needs updating)
+                <p className="fa-p">LinkedIn</p>
               </a>
-              <section class="fa-do bottom-nav">
-                <a
-                  class="fa fa-linkedin"
-                  href="https://www.linkedin.com/in/mallory-alexandrew/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn
-                </a>
 
-                <a
-                  class="fa fa-facebook"
-                  href="https://www.facebook.com/pytormal"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Facebook
-                </a>
+              <a
+                class="fa fa-facebook"
+                href="https://www.facebook.com/pytormal"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="fa-p">Facebook</p>
+              </a>
 
-                <a
-                  class="fa fa-twitter"
-                  href="https://www.twitter.com/pytormal"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Twitter
-                </a>
+              <a
+                class="fa fa-twitter"
+                href="https://www.twitter.com/pytormal"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="fa-p">Twitter</p>
+              </a>
 
-                <a
-                  class="fa fa-instagram"
-                  href="https://www.instagram.com/alexandrewmallory/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Instagram
-                </a>
-              </section>
-            </nav>
-            <VideoBg>
-              <VideoBg.Source
-                src={
-                  "https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761"
-                }
-                type=""
-              />
-            </VideoBg>
-        
+              <a
+                class="fa fa-instagram"
+                href="https://www.instagram.com/alexandrewmallory/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="fa-p">Instagram</p>
+              </a>
+            </section>
+          </nav>
+          <VideoBg>
+            <VideoBg.Source
+              src={
+                "https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761"
+              }
+              type=""
+            />
+          </VideoBg>
         </section>
       </>
     );

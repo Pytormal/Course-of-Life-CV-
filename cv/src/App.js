@@ -1,3 +1,6 @@
+// App will be refactored and or reset to look clean and well organized
+// this message will be deleted onces the site has made changes to code
+
 import React from 'react';
 // import { Link, NavLink, Route, Switch } from 'react-router-dom';
 import VideoBg from "reactjs-videobg";
@@ -50,7 +53,6 @@ class App extends React.Component {
             target="_blank" rel="noopener noreferrer"
           >here is my portfolio of projects (needs updating)</a>
           <ul class="bottom-nav">
-          <div className='port social'>(social media content needs updating as well) </div> 
             <section class="fa-do">
               <a
                 class="fa fa-linkedin"

@@ -14,7 +14,7 @@ const VideoBg = ({
   children,
   onPlaying,
   onPlay,
-  el: El = "div"
+  el: El = "div",
 }) => {
   return (
     <El
@@ -50,15 +50,15 @@ VideoBg.propTypes = {
   onPlaying: PropTypes.func,
   children: PropTypes.oneOfType([
     PropTypes.shape({
-      type: Source
+      type: Source,
     }),
     PropTypes.arrayOf(
       PropTypes.shape({
-        type: Source
+        type: Source,
       })
-    )
+    ),
   ]),
-  el: PropTypes.string
+  el: PropTypes.string,
 };
 
 VideoBg.Source = Source;

@@ -9,7 +9,7 @@ const Skills = () => {
                     Designed many apps for homework and web pages.
                      <li>
                         Created this basic CV and other personal projects as well</li>
-                    <li>learned HTML, CSS, LESS, JSX, React, more skills to learn</li>
+                    <li>Learned HTML, CSS, LESS, JSX, React, more skills to learn</li>
                 </p>
                 <p>
                     Highly Profecient and skilled in Microsoft Excel

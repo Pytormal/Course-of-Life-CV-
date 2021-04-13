@@ -24,14 +24,6 @@ class App extends React.Component {
     return (
       <>
         <section className="App">
-          <VideoBg>
-            <VideoBg.Source
-              src={
-                "https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761"
-              }
-              type=""
-            />
-          </VideoBg>
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -63,8 +55,7 @@ class App extends React.Component {
             >
               here is my portfolio of projects (needs updating)
             </a>
-            <ul class="bottom-nav">
-              <section class="fa-do">
+            <section class="fa-do bottom-nav">
                 <a
                   class="fa fa-linkedin"
                   href="https://www.linkedin.com/in/mallory-alexandrew/"
@@ -100,9 +91,16 @@ class App extends React.Component {
                 >
                   Instagram
                 </a>
-              </section>
-            </ul>
+                          </section>
           </nav>
+          <VideoBg>
+            <VideoBg.Source
+              src={
+                "https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761"
+              }
+              type=""
+            />
+          </VideoBg>
         </footer>
       </>
     );
@@ -112,7 +110,7 @@ class App extends React.Component {
 export default App;
 
 // {
-  /* <nav>
+/* <nav>
      
        <Link to="/Home">Home</Link>
        <Link to="/">Login</Link>

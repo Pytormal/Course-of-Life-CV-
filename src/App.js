@@ -24,6 +24,14 @@ class App extends React.Component {
     return (
       <>
         <section className="App">
+          <VideoBg>
+            <VideoBg.Source
+              src={
+                "https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761"
+              }
+              type=""
+            />
+          </VideoBg>
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -62,40 +70,40 @@ class App extends React.Component {
                   href="https://www.linkedin.com/in/mallory-alexandrew/"
                   target="_blank"
                   rel="noopener noreferrer"
-                ></a>
+                >
+                  LinkedIn
+                </a>
 
                 <a
                   class="fa fa-facebook"
                   href="https://www.facebook.com/pytormal"
                   target="_blank"
                   rel="noopener noreferrer"
-                ></a>
+                >
+                  Facebook
+                </a>
 
                 <a
                   class="fa fa-twitter"
                   href="https://www.twitter.com/pytormal"
                   target="_blank"
                   rel="noopener noreferrer"
-                ></a>
+                >
+                  Twitter
+                </a>
 
                 <a
                   class="fa fa-instagram"
                   href="https://www.instagram.com/alexandrewmallory/"
                   target="_blank"
                   rel="noopener noreferrer"
-                ></a>
+                >
+                  Instagram
+                </a>
               </section>
             </ul>
           </nav>
         </footer>
-        <VideoBg>
-          <VideoBg.Source
-            src={
-              "https://player.vimeo.com/external/298808280.sd.mp4?s=d438fd942d0070e46ad3a1c99b0f19875932d21c&profile_id=164&oauth2_token_id=57447761"
-            }
-            type=""
-          />
-        </VideoBg>
       </>
     );
   }
@@ -103,7 +111,7 @@ class App extends React.Component {
 
 export default App;
 
-{
+// {
   /* <nav>
      
        <Link to="/Home">Home</Link>
@@ -123,4 +131,4 @@ export default App;
           <RegisterForm/>
         </Route>
       </Switch>  */
-}
+// }
